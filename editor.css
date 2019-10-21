@@ -1,0 +1,107 @@
+body {
+    background: url(memes/GamerMeme6.jpg) left top repeat-x, 
+    url(memes/GamerMeme6.jpg) right bottom repeat-x,
+    url(memes/GamerMeme2.jpg) right bottom repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.781);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    border: 8px ridge #c7c7c7;
+    color: #ffffff;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+}
+
+img {
+    border: 8px ridge #d3bc38;
+    max-width: 100%;
+    width: 512px;
+    height: 256px;
+}
+
+.one {
+    border: 8px ridge #476097;
+    height: 512px;
+}
+
+.two {
+    border: 8px ridge #ad4545;
+    height: 512px;
+}
+
+.three {
+    border: 8px ridge #3f9955;
+    height: 512px;
+}
+
+.four {
+    border: 8px ridge #5e5e5e;
+    height: 480px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
